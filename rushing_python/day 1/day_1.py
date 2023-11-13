@@ -42,6 +42,19 @@ Out:
  ooooooo
 ```
 
+3.
+Create a function that computes the roots of a 
+quadratic function using the Bhaskara equation:
+𝑎𝑥2+𝑏𝑥+𝑐=0
+ 
+𝑥=−𝑏±𝑏2−4𝑎𝑐⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯√2𝑎
+ 
+def bhaskara (a, b, c):
+    ...
+    return root_1, root_2
+If the b^2 - 4ac value is negative, then raise an error
+
+
 """
 
 
@@ -73,26 +86,27 @@ with open("xorg.8.log", "r") as f:
 
         
         # Solution 1: Using absolute position 
-        time_stamp = line[1:11]
-        error_msg = line[18:].split
+        # time_stamp = line[1:11]
+        # error_msg = line[18:].split
 
         # # Solution 2: Using split and join (better option)
         # print(line)
-        # separeted_line = line.split()
+        separeted_line = line.split()
         # print(separeted_line)
 
-        # time_stamp =  separeted_line[1]
-        # time_stamp = time_stamp[0:-1]
+        time_stamp =  separeted_line[1]
+        time_stamp = time_stamp[0:-1]
         # print(time_stamp)
+        error_msg = ' '.join(separeted_line[3:]) #all the way to the end
 
         # Solution 3: Using Regular expression (overkill) -> Not basic
 
-        # error_msg = ' '.join(separeted_line[3:]) #all the way to the end
+        
         print(f'At time {time_stamp}, error {error_msg}')
         
 
 
-# Exercise:
+# Exercise 4:
 
 # Read a folder of log files like this one
 # Search here: https://gist.github.com/search?q=Xorg.8.log&ref=searchresults
