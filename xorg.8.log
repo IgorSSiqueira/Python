@@ -1,0 +1,391 @@
+[    78.777] 
+X.Org X Server 1.11.1
+Release Date: 2011-09-24
+[    78.777] X Protocol Version 11, Revision 0
+[    78.777] Build Operating System: Linux 3.1.0-rc4-amd64 x86_64 Debian
+[    78.777] Current Operating System: Linux debian 3.0.0-1-amd64 #1 SMP Sat Aug 27 16:21:11 UTC 2011 x86_64
+[    78.777] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.0.0-1-amd64 root=UUID=17677b05-57ef-406f-97d2-4e1f4a1562dc ro quiet
+[    78.777] Build Date: 24 September 2011  09:28:42AM
+[    78.777] xorg-server 2:1.11.1-1 (Cyril Brulebois <kibi@debian.org>) 
+[    78.777] Current version of pixman: 0.22.2
+[    78.777] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    78.778] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    78.778] (==) Log file: "/var/log/Xorg.8.log", Time: Sun Oct  2 21:04:25 2011
+[    78.778] (++) Using config file: "/etc/X11/xorg.conf.nvidia"
+[    78.778] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    78.783] (==) No Layout section.  Using the first Screen section.
+[    78.783] (**) |-->Screen "Screen1" (0)
+[    78.783] (**) |   |-->Monitor "Monitor1"
+[    78.784] (**) |   |-->Device "Device1"
+[    78.784] (==) Automatically adding devices
+[    78.784] (==) Automatically enabling devices
+[    78.784] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    78.784] 	Entry deleted from font path.
+[    78.785] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    78.785] 	Entry deleted from font path.
+[    78.785] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    78.785] 	Entry deleted from font path.
+[    78.785] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    78.785] 	Entry deleted from font path.
+[    78.785] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    78.785] 	Entry deleted from font path.
+[    78.785] (WW) `fonts.dir' not found (or not valid) in "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType".
+[    78.785] 	Entry deleted from font path.
+[    78.785] 	(Run 'mkfontdir' on "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType").
+[    78.785] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    78.785] (++) ModulePath set to "/usr/local/lib/debumblebee,/usr/lib/xorg/modules"
+[    78.785] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    78.785] (II) Loader magic: 0x7cfdc0
+[    78.785] (II) Module ABI versions:
+[    78.785] 	X.Org ANSI C Emulation: 0.4
+[    78.785] 	X.Org Video Driver: 11.0
+[    78.785] 	X.Org XInput driver : 13.0
+[    78.785] 	X.Org Server Extension : 6.0
+[    78.788] (--) PCI:*(0:0:2:0) 8086:0116:1043:105c rev 9, Mem @ 0xf7400000/4194304, 0xd0000000/268435456, I/O @ 0x0000f000/64
+[    78.788] (--) PCI: (0:1:0:0) 10de:0df4:1043:105c rev 161, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/524288
+[    78.788] (II) Open ACPI successful (/var/run/acpid.socket)
+[    78.788] (II) LoadModule: "extmod"
+[    78.822] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[    78.822] (II) Module extmod: vendor="X.Org Foundation"
+[    78.822] 	compiled for 1.11.1, module version = 1.0.0
+[    78.822] 	Module class: X.Org Server Extension
+[    78.822] 	ABI class: X.Org Server Extension, version 6.0
+[    78.822] (II) Loading extension SELinux
+[    78.822] (II) Loading extension MIT-SCREEN-SAVER
+[    78.822] (II) Loading extension XFree86-VidModeExtension
+[    78.822] (II) Loading extension XFree86-DGA
+[    78.822] (II) Loading extension DPMS
+[    78.822] (II) Loading extension XVideo
+[    78.822] (II) Loading extension XVideo-MotionCompensation
+[    78.822] (II) Loading extension X-Resource
+[    78.822] (II) LoadModule: "dbe"
+[    78.822] (II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[    78.822] (II) Module dbe: vendor="X.Org Foundation"
+[    78.822] 	compiled for 1.11.1, module version = 1.0.0
+[    78.822] 	Module class: X.Org Server Extension
+[    78.822] 	ABI class: X.Org Server Extension, version 6.0
+[    78.822] (II) Loading extension DOUBLE-BUFFER
+[    78.822] (II) LoadModule: "glx"
+[    78.822] (II) Loading /usr/local/lib/debumblebee/libglx.so
+[    79.287] (II) Module glx: vendor="NVIDIA Corporation"
+[    79.292] 	compiled for 4.0.2, module version = 1.0.0
+[    79.292] 	Module class: X.Org Server Extension
+[    79.292] (II) NVIDIA GLX Module  275.28  Wed Aug 31 17:15:37 PDT 2011
+[    79.292] (II) Loading extension GLX
+[    79.292] (II) LoadModule: "record"
+[    79.292] (II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+[    79.292] (II) Module record: vendor="X.Org Foundation"
+[    79.292] 	compiled for 1.11.1, module version = 1.13.0
+[    79.292] 	Module class: X.Org Server Extension
+[    79.292] 	ABI class: X.Org Server Extension, version 6.0
+[    79.292] (II) Loading extension RECORD
+[    79.292] (II) LoadModule: "dri"
+[    79.292] (II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+[    79.293] (II) Module dri: vendor="X.Org Foundation"
+[    79.293] 	compiled for 1.11.1, module version = 1.0.0
+[    79.293] 	ABI class: X.Org Server Extension, version 6.0
+[    79.293] (II) Loading extension XFree86-DRI
+[    79.293] (II) LoadModule: "dri2"
+[    79.293] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[    79.293] (II) Module dri2: vendor="X.Org Foundation"
+[    79.293] 	compiled for 1.11.1, module version = 1.2.0
+[    79.293] 	ABI class: X.Org Server Extension, version 6.0
+[    79.293] (II) Loading extension DRI2
+[    79.293] (II) LoadModule: "nvidia"
+[    79.293] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[    79.343] (II) Module nvidia: vendor="NVIDIA Corporation"
+[    79.345] 	compiled for 4.0.2, module version = 1.0.0
+[    79.345] 	Module class: X.Org Video Driver
+[    79.363] (II) NVIDIA dlloader X Driver  275.28  Wed Aug 31 16:58:32 PDT 2011
+[    79.363] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[    79.363] (--) using VT number 7
+
+[    79.363] (WW) xf86OpenConsole: setpgid failed: Operation not permitted
+[    79.368] (II) Loading sub module "fb"
+[    79.368] (II) LoadModule: "fb"
+[    79.368] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    79.369] (II) Module fb: vendor="X.Org Foundation"
+[    79.369] 	compiled for 1.11.1, module version = 1.0.0
+[    79.369] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    79.369] (II) Loading sub module "wfb"
+[    79.369] (II) LoadModule: "wfb"
+[    79.369] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[    79.380] (II) Module wfb: vendor="X.Org Foundation"
+[    79.380] 	compiled for 1.11.1, module version = 1.0.0
+[    79.380] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    79.380] (II) Loading sub module "ramdac"
+[    79.380] (II) LoadModule: "ramdac"
+[    79.380] (II) Module "ramdac" already built-in
+[    79.390] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[    79.390] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[    79.390] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    79.406] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[    79.406] (==) NVIDIA(0): RGB weight 888
+[    79.406] (==) NVIDIA(0): Default visual is TrueColor
+[    79.406] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[    79.406] (**) NVIDIA(0): Option "UseEDID" "FALSE"
+[    79.406] (**) NVIDIA(0): Option "ConnectedMonitor" "DFP-0"
+[    79.406] (**) NVIDIA(0): Option "DPI" "96x96"
+[    79.406] (**) NVIDIA(0): ConnectedMonitor string: "DFP-0"
+[    79.406] (**) NVIDIA(0): Ignoring EDIDs
+[    80.828] (II) NVIDIA(GPU-0): Not probing EDID on DFP-0.
+[    80.830] (II) NVIDIA(0): NVIDIA GPU GeForce GT 540M (GF108) at PCI:1:0:0 (GPU-0)
+[    80.830] (--) NVIDIA(0): Memory: 1048576 kBytes
+[    80.830] (--) NVIDIA(0): VideoBIOS: 70.08.5e.00.04
+[    80.830] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[    80.830] (--) NVIDIA(0): Interlaced video modes are supported on this GPU
+[    80.830] (--) NVIDIA(0): Connected display device(s) on GeForce GT 540M at PCI:1:0:0
+[    80.830] (--) NVIDIA(0):     DFP-0
+[    80.830] (--) NVIDIA(0): DFP-0: 165.0 MHz maximum pixel clock
+[    80.830] (--) NVIDIA(0): DFP-0: Internal Single Link TMDS
+[    80.841] (II) NVIDIA(0): Assigned Display Device: DFP-0
+[    80.841] (WW) NVIDIA(0): No valid modes for "1920x1200"; removing.
+[    80.841] (WW) NVIDIA(0): No valid modes for "1920x1080"; removing.
+[    80.841] (WW) NVIDIA(0): No valid modes for "1680x1050"; removing.
+[    80.841] (WW) NVIDIA(0): No valid modes for "1600x1200"; removing.
+[    80.841] (WW) NVIDIA(0): No valid modes for "1440x900"; removing.
+[    80.841] (WW) NVIDIA(0): No valid modes for "1366x768"; removing.
+[    80.841] (WW) NVIDIA(0): No valid modes for "1280x1024"; removing.
+[    80.841] (WW) NVIDIA(0): No valid modes for "1280x800"; removing.
+[    80.841] (WW) NVIDIA(0): 
+[    80.841] (WW) NVIDIA(0): Unable to validate any modes; falling back to the default mode
+[    80.841] (WW) NVIDIA(0):     "nvidia-auto-select".
+[    80.841] (WW) NVIDIA(0): 
+[    80.841] (II) NVIDIA(0): Validated modes:
+[    80.841] (II) NVIDIA(0):     "nvidia-auto-select"
+[    80.841] (II) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[    80.844] (**) NVIDIA(0): DPI set to (96, 96); computed from "DPI" X config option
+[    80.844] (--) Depth 24 pixmap format is 32 bpp
+[    80.844] (II) NVIDIA: Using 3072.00 MB of virtual memory for indirect memory
+[    80.844] (II) NVIDIA:     access.
+[    80.862] (II) NVIDIA(0): Setting mode "nvidia-auto-select"
+[    80.892] (II) NVIDIA(0): Built-in logo is bigger than the screen.
+[    80.892] (II) Loading extension NV-GLX
+[    80.951] (==) NVIDIA(0): Disabling shared memory pixmaps
+[    80.951] (==) NVIDIA(0): Backing store disabled
+[    80.951] (==) NVIDIA(0): Silken mouse enabled
+[    80.951] (==) NVIDIA(0): DPMS enabled
+[    80.951] (II) Loading extension NV-CONTROL
+[    80.951] (II) Loading extension XINERAMA
+[    80.951] (II) Loading sub module "dri2"
+[    80.951] (II) LoadModule: "dri2"
+[    80.952] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[    80.952] (II) Module dri2: vendor="X.Org Foundation"
+[    80.952] 	compiled for 1.11.1, module version = 1.2.0
+[    80.952] 	ABI class: X.Org Server Extension, version 6.0
+[    80.952] (II) NVIDIA(0): [DRI2] Setup complete
+[    80.952] (==) RandR enabled
+[    80.952] (II) Initializing built-in extension Generic Event Extension
+[    80.952] (II) Initializing built-in extension SHAPE
+[    80.952] (II) Initializing built-in extension MIT-SHM
+[    80.952] (II) Initializing built-in extension XInputExtension
+[    80.952] (II) Initializing built-in extension XTEST
+[    80.952] (II) Initializing built-in extension BIG-REQUESTS
+[    80.952] (II) Initializing built-in extension SYNC
+[    80.952] (II) Initializing built-in extension XKEYBOARD
+[    80.952] (II) Initializing built-in extension XC-MISC
+[    80.952] (II) Initializing built-in extension SECURITY
+[    80.952] (II) Initializing built-in extension XINERAMA
+[    80.952] (II) Initializing built-in extension XFIXES
+[    80.952] (II) Initializing built-in extension RENDER
+[    80.952] (II) Initializing built-in extension RANDR
+[    80.952] (II) Initializing built-in extension COMPOSITE
+[    80.952] (II) Initializing built-in extension DAMAGE
+[    80.952] (II) SELinux: Disabled on system
+[    80.953] (II) Initializing extension GLX
+[    81.043] (II) config/udev: Adding input device Power Button (/dev/input/event4)
+[    81.043] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    81.043] (II) LoadModule: "evdev"
+[    81.043] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.043] (II) Module evdev: vendor="X.Org Foundation"
+[    81.043] 	compiled for 1.11.0, module version = 2.6.0
+[    81.043] 	Module class: X.Org XInput Driver
+[    81.043] 	ABI class: X.Org XInput driver, version 13.0
+[    81.043] (II) Using input driver 'evdev' for 'Power Button'
+[    81.043] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.043] (**) Power Button: always reports core events
+[    81.043] (**) Power Button: Device: "/dev/input/event4"
+[    81.043] (--) Power Button: Found keys
+[    81.043] (II) Power Button: Configuring as keyboard
+[    81.043] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input4/event4"
+[    81.043] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    81.043] (**) Option "xkb_rules" "evdev"
+[    81.043] (**) Option "xkb_model" "pc105"
+[    81.043] (**) Option "xkb_layout" "fr"
+[    81.043] (**) Option "xkb_variant" "latin9"
+[    81.059] (II) config/udev: Adding input device Video Bus (/dev/input/event11)
+[    81.059] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[    81.059] (II) Using input driver 'evdev' for 'Video Bus'
+[    81.059] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.059] (**) Video Bus: always reports core events
+[    81.059] (**) Video Bus: Device: "/dev/input/event11"
+[    81.059] (--) Video Bus: Found keys
+[    81.059] (II) Video Bus: Configuring as keyboard
+[    81.059] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0A08:00/LNXVIDEO:01/input/input11/event11"
+[    81.059] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    81.059] (**) Option "xkb_rules" "evdev"
+[    81.059] (**) Option "xkb_model" "pc105"
+[    81.059] (**) Option "xkb_layout" "fr"
+[    81.059] (**) Option "xkb_variant" "latin9"
+[    81.059] (II) config/udev: Adding input device Video Bus (/dev/input/event10)
+[    81.059] (**) Video Bus: Applying InputClass "evdev keyboard catchall"
+[    81.059] (II) Using input driver 'evdev' for 'Video Bus'
+[    81.059] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.059] (**) Video Bus: always reports core events
+[    81.059] (**) Video Bus: Device: "/dev/input/event10"
+[    81.059] (--) Video Bus: Found keys
+[    81.059] (II) Video Bus: Configuring as keyboard
+[    81.059] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0A08:00/device:1a/LNXVIDEO:00/input/input10/event10"
+[    81.059] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    81.059] (**) Option "xkb_rules" "evdev"
+[    81.059] (**) Option "xkb_model" "pc105"
+[    81.059] (**) Option "xkb_layout" "fr"
+[    81.059] (**) Option "xkb_variant" "latin9"
+[    81.060] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    81.060] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[    81.060] (II) Using input driver 'evdev' for 'Power Button'
+[    81.060] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.060] (**) Power Button: always reports core events
+[    81.060] (**) Power Button: Device: "/dev/input/event1"
+[    81.060] (--) Power Button: Found keys
+[    81.060] (II) Power Button: Configuring as keyboard
+[    81.060] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0C0C:00/input/input1/event1"
+[    81.060] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 9)
+[    81.060] (**) Option "xkb_rules" "evdev"
+[    81.060] (**) Option "xkb_model" "pc105"
+[    81.060] (**) Option "xkb_layout" "fr"
+[    81.060] (**) Option "xkb_variant" "latin9"
+[    81.060] (II) config/udev: Adding input device Lid Switch (/dev/input/event3)
+[    81.060] (II) No input driver/identifier specified (ignoring)
+[    81.060] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[    81.060] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[    81.060] (II) Using input driver 'evdev' for 'Sleep Button'
+[    81.060] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.060] (**) Sleep Button: always reports core events
+[    81.060] (**) Sleep Button: Device: "/dev/input/event2"
+[    81.060] (--) Sleep Button: Found keys
+[    81.060] (II) Sleep Button: Configuring as keyboard
+[    81.060] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/device:00/PNP0C0E:00/input/input2/event2"
+[    81.060] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 10)
+[    81.060] (**) Option "xkb_rules" "evdev"
+[    81.060] (**) Option "xkb_model" "pc105"
+[    81.060] (**) Option "xkb_layout" "fr"
+[    81.060] (**) Option "xkb_variant" "latin9"
+[    81.061] (II) config/udev: Adding input device ASUS USB2.0 WebCam (/dev/input/event12)
+[    81.061] (**) ASUS USB2.0 WebCam: Applying InputClass "evdev keyboard catchall"
+[    81.061] (II) Using input driver 'evdev' for 'ASUS USB2.0 WebCam'
+[    81.061] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.061] (**) ASUS USB2.0 WebCam: always reports core events
+[    81.061] (**) ASUS USB2.0 WebCam: Device: "/dev/input/event12"
+[    81.061] (--) ASUS USB2.0 WebCam: Found keys
+[    81.061] (II) ASUS USB2.0 WebCam: Configuring as keyboard
+[    81.061] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb3/3-1/3-1.3/3-1.3:1.0/input/input12/event12"
+[    81.061] (II) XINPUT: Adding extended input device "ASUS USB2.0 WebCam" (type: KEYBOARD, id 11)
+[    81.061] (**) Option "xkb_rules" "evdev"
+[    81.061] (**) Option "xkb_model" "pc105"
+[    81.061] (**) Option "xkb_layout" "fr"
+[    81.061] (**) Option "xkb_variant" "latin9"
+[    81.061] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event8)
+[    81.061] (II) No input driver/identifier specified (ignoring)
+[    81.061] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event9)
+[    81.061] (II) No input driver/identifier specified (ignoring)
+[    81.061] (II) config/udev: Adding input device Asus WMI hotkeys (/dev/input/event6)
+[    81.061] (**) Asus WMI hotkeys: Applying InputClass "evdev keyboard catchall"
+[    81.061] (II) Using input driver 'evdev' for 'Asus WMI hotkeys'
+[    81.061] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.061] (**) Asus WMI hotkeys: always reports core events
+[    81.061] (**) Asus WMI hotkeys: Device: "/dev/input/event6"
+[    81.061] (--) Asus WMI hotkeys: Found keys
+[    81.061] (II) Asus WMI hotkeys: Configuring as keyboard
+[    81.061] (**) Option "config_info" "udev:/sys/devices/platform/asus-nb-wmi/input/input6/event6"
+[    81.062] (II) XINPUT: Adding extended input device "Asus WMI hotkeys" (type: KEYBOARD, id 12)
+[    81.062] (**) Option "xkb_rules" "evdev"
+[    81.062] (**) Option "xkb_model" "pc105"
+[    81.062] (**) Option "xkb_layout" "fr"
+[    81.062] (**) Option "xkb_variant" "latin9"
+[    81.062] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    81.062] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    81.062] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    81.062] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    81.062] (**) AT Translated Set 2 keyboard: always reports core events
+[    81.062] (**) AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[    81.062] (--) AT Translated Set 2 keyboard: Found keys
+[    81.062] (II) AT Translated Set 2 keyboard: Configuring as keyboard
+[    81.062] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[    81.062] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 13)
+[    81.062] (**) Option "xkb_rules" "evdev"
+[    81.062] (**) Option "xkb_model" "pc105"
+[    81.062] (**) Option "xkb_layout" "fr"
+[    81.062] (**) Option "xkb_variant" "latin9"
+[    81.062] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event7)
+[    81.062] (**) ETPS/2 Elantech Touchpad: Applying InputClass "evdev touchpad catchall"
+[    81.062] (**) ETPS/2 Elantech Touchpad: Applying InputClass "touchpad catchall"
+[    81.062] (II) LoadModule: "synaptics"
+[    81.062] (II) Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[    81.062] (II) Module synaptics: vendor="X.Org Foundation"
+[    81.062] 	compiled for 1.11.0, module version = 1.4.1
+[    81.062] 	Module class: X.Org XInput Driver
+[    81.062] 	ABI class: X.Org XInput driver, version 13.0
+[    81.062] (II) Using input driver 'synaptics' for 'ETPS/2 Elantech Touchpad'
+[    81.063] (II) Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[    81.063] (**) ETPS/2 Elantech Touchpad: always reports core events
+[    81.063] (**) Option "Device" "/dev/input/event7"
+[    81.063] (--) ETPS/2 Elantech Touchpad: invalid x-axis range.  defaulting to 1615 - 5685
+[    81.063] (--) ETPS/2 Elantech Touchpad: invalid y-axis range.  defaulting to 1729 - 4171
+[    81.063] (--) ETPS/2 Elantech Touchpad: invalid pressure range.  defaulting to 0 - 256
+[    81.063] (--) ETPS/2 Elantech Touchpad: invalid finger width range.  defaulting to 0 - 16
+[    81.063] (--) ETPS/2 Elantech Touchpad: no supported touchpad found
+[    81.063] (EE) ETPS/2 Elantech Touchpad Unable to query/initialize Synaptics hardware.
+[    81.108] (EE) PreInit returned 11 for "ETPS/2 Elantech Touchpad"
+[    81.108] (II) UnloadModule: "synaptics"
+[    81.108] (II) Unloading synaptics
+[    81.108] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse0)
+[    81.108] (**) ETPS/2 Elantech Touchpad: Applying InputClass "touchpad catchall"
+[    81.108] (II) Using input driver 'synaptics' for 'ETPS/2 Elantech Touchpad'
+[    81.108] (II) Loading /usr/lib/xorg/modules/input/synaptics_drv.so
+[    81.108] (**) ETPS/2 Elantech Touchpad: always reports core events
+[    81.108] (**) Option "Device" "/dev/input/mouse0"
+[    81.108] (--) ETPS/2 Elantech Touchpad: invalid x-axis range.  defaulting to 1615 - 5685
+[    81.108] (--) ETPS/2 Elantech Touchpad: invalid y-axis range.  defaulting to 1729 - 4171
+[    81.108] (--) ETPS/2 Elantech Touchpad: invalid pressure range.  defaulting to 0 - 256
+[    81.109] (--) ETPS/2 Elantech Touchpad: invalid finger width range.  defaulting to 0 - 16
+[    81.129] (EE) Query no Synaptics: 6003C8
+[    81.129] (--) ETPS/2 Elantech Touchpad: no supported touchpad found
+[    81.129] (EE) ETPS/2 Elantech Touchpad Unable to query/initialize Synaptics hardware.
+[    81.240] (EE) PreInit returned 11 for "ETPS/2 Elantech Touchpad"
+[    81.240] (II) UnloadModule: "synaptics"
+[    81.240] (II) Unloading synaptics
+[    81.240] (II) config/udev: Adding input device PC Speaker (/dev/input/event5)
+[    81.240] (II) No input driver/identifier specified (ignoring)
+[    81.263] (II) Power Button: Close
+[    81.263] (II) UnloadModule: "evdev"
+[    81.263] (II) Unloading evdev
+[    81.263] (II) Video Bus: Close
+[    81.263] (II) UnloadModule: "evdev"
+[    81.263] (II) Unloading evdev
+[    81.264] (II) Video Bus: Close
+[    81.264] (II) UnloadModule: "evdev"
+[    81.264] (II) Unloading evdev
+[    81.264] (II) Power Button: Close
+[    81.264] (II) UnloadModule: "evdev"
+[    81.264] (II) Unloading evdev
+[    81.272] (II) Sleep Button: Close
+[    81.272] (II) UnloadModule: "evdev"
+[    81.272] (II) Unloading evdev
+[    81.272] (II) ASUS USB2.0 WebCam: Close
+[    81.272] (II) UnloadModule: "evdev"
+[    81.272] (II) Unloading evdev
+[    81.272] (II) Asus WMI hotkeys: Close
+[    81.272] (II) UnloadModule: "evdev"
+[    81.272] (II) Unloading evdev
+[    81.272] (II) AT Translated Set 2 keyboard: Close
+[    81.272] (II) UnloadModule: "evdev"
+[    81.272] (II) Unloading evdev
+[    81.354] Server terminated successfully (0). Closing log file.]
