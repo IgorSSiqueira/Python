@@ -1,0 +1,14 @@
+At time 24.733, error event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 24ms, your system is too slow
+At time 105.679, error event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 15ms, your system is too slow
+At time 240.563, error event18 - Logitech G512 SE: client bug: event processing lagging behind by 20ms, your system is too slow
+At time 448.041, error event18 - Logitech G512 SE: client bug: event processing lagging behind by 17ms, your system is too slow
+At time 478.176, error event18 - Logitech G512 SE: client bug: event processing lagging behind by 19ms, your system is too slow
+At time 955.905, error event18 - Logitech G512 SE: client bug: event processing lagging behind by 35ms, your system is too slow
+At time 2088.384, error event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 17ms, your system is too slow
+At time 2107.003, error event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 20ms, your system is too slow
+At time 2110.261, error event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 14ms, your system is too slow
+At time 2110.261, error event20 - Logitech G403 Prodigy Gaming Mouse: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+At time 2495.298, error event18 - Logitech G512 SE: client bug: event processing lagging behind by 18ms, your system is too slow
+At time 2495.298, error event18 - Logitech G512 SE: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+At time 17.297, error Failed to load module "nvidia" (module does not exist, 0)
+At time 17.358, error Failed to load module "nvidia" (module does not exist, 0)

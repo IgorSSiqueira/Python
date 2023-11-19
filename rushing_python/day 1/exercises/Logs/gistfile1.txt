@@ -1,0 +1,685 @@
+[     4.196] (--) Log file renamed from "/var/log/Xorg.pid-581.log" to "/var/log/Xorg.0.log"
+[     4.197] 
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+[     4.197] Build Operating System: Linux Archlinux
+[     4.197] Current Operating System: Linux workstation 5.14.8-arch1-1 #1 SMP PREEMPT Sun, 26 Sep 2021 19:36:15 +0000 x86_64
+[     4.197] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=eeebc491-3a2e-4b57-aa28-27527bf195b3 rw loglevel=3 nvidia-drm.modeset=1 quiet
+[     4.197] Build Date: 04 August 2021  08:13:54AM
+[     4.197]  
+[     4.197] Current version of pixman: 0.40.0
+[     4.197] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     4.197] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     4.197] (==) Log file: "/var/log/Xorg.0.log", Time: Tue Sep 28 11:30:06 2021
+[     4.198] (==) Using config file: "/etc/X11/xorg.conf"
+[     4.198] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[     4.198] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     4.198] (==) ServerLayout "Layout0"
+[     4.198] (**) |-->Screen "Screen0" (0)
+[     4.198] (**) |   |-->Monitor "Monitor0"
+[     4.199] (**) |   |-->Device "Device0"
+[     4.199] (**) |-->Input Device "Keyboard0"
+[     4.199] (**) |-->Input Device "Mouse0"
+[     4.199] (**) Option "Xinerama" "0"
+[     4.199] (==) Automatically adding devices
+[     4.199] (==) Automatically enabling devices
+[     4.199] (==) Automatically adding GPU devices
+[     4.199] (==) Automatically binding GPU devices
+[     4.199] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     4.199] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[     4.199] 	Entry deleted from font path.
+[     4.199] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[     4.199] 	Entry deleted from font path.
+[     4.200] (==) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/100dpi,
+	/usr/share/fonts/75dpi
+[     4.200] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     4.200] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[     4.200] (WW) Disabling Keyboard0
+[     4.200] (WW) Disabling Mouse0
+[     4.200] (II) Module ABI versions:
+[     4.200] 	X.Org ANSI C Emulation: 0.4
+[     4.200] 	X.Org Video Driver: 24.1
+[     4.200] 	X.Org XInput driver : 24.1
+[     4.200] 	X.Org Server Extension : 10.0
+[     4.200] (++) using VT number 1
+
+[     4.200] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[     4.201] (II) xfree86: Adding drm device (/dev/dri/card0)
+[     4.202] (**) OutputClass "nvidia" ModulePath extended to "/usr/lib/nvidia/xorg,/usr/lib/xorg/modules,/usr/lib/xorg/modules"
+[     4.203] (--) PCI:*(7@0:0:0) 10de:1f06:1458:3ff1 rev 161, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000f000/128, BIOS @ 0x????????/131072
+[     4.203] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[     4.203] (II) LoadModule: "glx"
+[     4.204] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     4.206] (II) Module glx: vendor="X.Org Foundation"
+[     4.206] 	compiled for 1.20.13, module version = 1.0.0
+[     4.206] 	ABI class: X.Org Server Extension, version 10.0
+[     4.206] (II) LoadModule: "nvidia"
+[     4.206] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[     4.208] (II) Module nvidia: vendor="NVIDIA Corporation"
+[     4.208] 	compiled for 1.6.99.901, module version = 1.0.0
+[     4.208] 	Module class: X.Org Video Driver
+[     4.208] (II) NVIDIA dlloader X Driver  470.74  Mon Sep 13 23:05:04 UTC 2021
+[     4.208] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[     4.209] (II) Loading sub module "fb"
+[     4.209] (II) LoadModule: "fb"
+[     4.209] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     4.209] (II) Module fb: vendor="X.Org Foundation"
+[     4.209] 	compiled for 1.20.13, module version = 1.0.0
+[     4.209] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     4.209] (II) Loading sub module "wfb"
+[     4.209] (II) LoadModule: "wfb"
+[     4.209] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[     4.209] (II) Module wfb: vendor="X.Org Foundation"
+[     4.209] 	compiled for 1.20.13, module version = 1.0.0
+[     4.209] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     4.209] (II) Loading sub module "ramdac"
+[     4.209] (II) LoadModule: "ramdac"
+[     4.209] (II) Module "ramdac" already built-in
+[     4.238] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[     4.238] (==) NVIDIA(0): RGB weight 888
+[     4.238] (==) NVIDIA(0): Default visual is TrueColor
+[     4.238] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[     4.238] (II) Applying OutputClass "nvidia" options to /dev/dri/card0
+[     4.238] (**) NVIDIA(0): Option "Stereo" "0"
+[     4.238] (**) NVIDIA(0): Option "nvidiaXineramaInfoOrder" "DFP-0"
+[     4.238] (**) NVIDIA(0): Option "SLI" "Off"
+[     4.238] (**) NVIDIA(0): Option "MultiGPU" "Off"
+[     4.238] (**) NVIDIA(0): Option "BaseMosaic" "off"
+[     4.238] (**) NVIDIA(0): Option "AllowEmptyInitialConfiguration"
+[     4.238] (**) NVIDIA(0): Stereo disabled by request
+[     4.238] (**) NVIDIA(0): NVIDIA SLI disabled.
+[     4.238] (**) NVIDIA(0): NVIDIA Multi-GPU disabled.
+[     4.238] (**) NVIDIA(0): Option "MetaModes" "1920x1080_144 +0+0"
+[     4.238] (**) NVIDIA(0): Enabling 2D acceleration
+[     4.238] (II) Loading sub module "glxserver_nvidia"
+[     4.238] (II) LoadModule: "glxserver_nvidia"
+[     4.238] (II) Loading /usr/lib/nvidia/xorg/libglxserver_nvidia.so
+[     4.255] (II) Module glxserver_nvidia: vendor="NVIDIA Corporation"
+[     4.255] 	compiled for 1.6.99.901, module version = 1.0.0
+[     4.255] 	Module class: X.Org Server Extension
+[     4.255] (II) NVIDIA GLX Module  470.74  Mon Sep 13 23:02:11 UTC 2021
+[     4.256] (II) NVIDIA: The X server supports PRIME Render Offload.
+[     4.257] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:7:0:0
+[     4.257] (--) NVIDIA(0):     DFP-0 (boot)
+[     4.257] (--) NVIDIA(0):     DFP-1
+[     4.257] (--) NVIDIA(0):     DFP-2
+[     4.257] (--) NVIDIA(0):     DFP-3
+[     4.257] (--) NVIDIA(0):     DFP-4
+[     4.257] (--) NVIDIA(0):     DFP-5
+[     4.257] (--) NVIDIA(0):     DFP-6
+[     4.257] (II) NVIDIA(0): NVIDIA GPU NVIDIA GeForce RTX 2060 SUPER (TU106-A) at
+[     4.257] (II) NVIDIA(0):     PCI:7:0:0 (GPU-0)
+[     4.257] (--) NVIDIA(0): Memory: 8388608 kBytes
+[     4.257] (--) NVIDIA(0): VideoBIOS: 90.06.44.80.56
+[     4.257] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[     4.258] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[     4.258] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[     4.258] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[     4.258] (--) NVIDIA(GPU-0): 
+[     4.260] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[     4.260] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[     4.260] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[     4.260] (--) NVIDIA(GPU-0): 
+[     4.260] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[     4.260] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[     4.260] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[     4.260] (--) NVIDIA(GPU-0): 
+[     4.260] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[     4.260] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[     4.260] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[     4.260] (--) NVIDIA(GPU-0): 
+[     4.260] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[     4.260] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[     4.260] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[     4.260] (--) NVIDIA(GPU-0): 
+[     4.260] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[     4.260] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[     4.260] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[     4.260] (--) NVIDIA(GPU-0): 
+[     4.260] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[     4.260] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[     4.260] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[     4.260] (--) NVIDIA(GPU-0): 
+[     4.325] (II) NVIDIA(0): Validated MetaModes:
+[     4.325] (II) NVIDIA(0):     "1920x1080_144+0+0"
+[     4.325] (II) NVIDIA(0): Virtual screen size determined to be 1920 x 1080
+[     4.386] (--) NVIDIA(0): DPI set to (81, 80); computed from "UseEdidDpi" X config
+[     4.386] (--) NVIDIA(0):     option
+[     4.386] (II) NVIDIA: Reserving 24576.00 MB of virtual memory for indirect memory
+[     4.386] (II) NVIDIA:     access.
+[     4.388] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[     4.388] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[     4.388] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[     4.388] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[     4.388] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[     4.388] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[     4.388] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[     4.388] (II) NVIDIA(0):     Config Options in the README.
+[     4.402] (II) NVIDIA(0): Setting mode "1920x1080_144+0+0"
+[     4.475] (==) NVIDIA(0): Disabling shared memory pixmaps
+[     4.475] (==) NVIDIA(0): Backing store enabled
+[     4.475] (==) NVIDIA(0): Silken mouse disabled
+[     4.475] (**) NVIDIA(0): DPMS enabled
+[     4.476] (II) Loading sub module "dri2"
+[     4.476] (II) LoadModule: "dri2"
+[     4.476] (II) Module "dri2" already built-in
+[     4.476] (II) NVIDIA(0): [DRI2] Setup complete
+[     4.476] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[     4.476] (II) Initializing extension Generic Event Extension
+[     4.476] (II) Initializing extension SHAPE
+[     4.476] (II) Initializing extension MIT-SHM
+[     4.476] (II) Initializing extension XInputExtension
+[     4.476] (II) Initializing extension XTEST
+[     4.476] (II) Initializing extension BIG-REQUESTS
+[     4.476] (II) Initializing extension SYNC
+[     4.476] (II) Initializing extension XKEYBOARD
+[     4.476] (II) Initializing extension XC-MISC
+[     4.476] (II) Initializing extension SECURITY
+[     4.476] (II) Initializing extension XFIXES
+[     4.477] (II) Initializing extension RENDER
+[     4.477] (II) Initializing extension RANDR
+[     4.477] (II) Initializing extension COMPOSITE
+[     4.477] (II) Initializing extension DAMAGE
+[     4.477] (II) Initializing extension MIT-SCREEN-SAVER
+[     4.477] (II) Initializing extension DOUBLE-BUFFER
+[     4.477] (II) Initializing extension RECORD
+[     4.477] (II) Initializing extension DPMS
+[     4.477] (II) Initializing extension Present
+[     4.477] (II) Initializing extension DRI3
+[     4.477] (II) Initializing extension X-Resource
+[     4.477] (II) Initializing extension XVideo
+[     4.477] (II) Initializing extension XVideo-MotionCompensation
+[     4.477] (II) Initializing extension GLX
+[     4.477] (II) Initializing extension GLX
+[     4.477] (II) Indirect GLX disabled.
+[     4.477] (II) GLX: Another vendor is already registered for screen 0
+[     4.477] (II) Initializing extension XFree86-VidModeExtension
+[     4.477] (II) Initializing extension XFree86-DGA
+[     4.477] (II) Initializing extension XFree86-DRI
+[     4.477] (II) Initializing extension DRI2
+[     4.477] (II) Initializing extension NV-GLX
+[     4.477] (II) Initializing extension NV-CONTROL
+[     4.478] (II) Initializing extension XINERAMA
+[     4.606] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[     4.606] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     4.606] (II) LoadModule: "libinput"
+[     4.606] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[     4.608] (II) Module libinput: vendor="X.Org Foundation"
+[     4.608] 	compiled for 1.20.13, module version = 1.2.0
+[     4.608] 	Module class: X.Org XInput Driver
+[     4.608] 	ABI class: X.Org XInput driver, version 24.1
+[     4.608] (II) Using input driver 'libinput' for 'Power Button'
+[     4.608] (**) Power Button: always reports core events
+[     4.608] (**) Option "Device" "/dev/input/event1"
+[     4.608] (**) Option "_source" "server/udev"
+[     4.612] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     4.612] (II) event1  - Power Button: device is a keyboard
+[     4.612] (II) event1  - Power Button: device removed
+[     4.645] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[     4.645] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[     4.646] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[     4.646] (II) event1  - Power Button: device is a keyboard
+[     4.646] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[     4.646] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[     4.646] (II) Using input driver 'libinput' for 'Power Button'
+[     4.646] (**) Power Button: always reports core events
+[     4.646] (**) Option "Device" "/dev/input/event0"
+[     4.646] (**) Option "_source" "server/udev"
+[     4.647] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[     4.647] (II) event0  - Power Button: device is a keyboard
+[     4.647] (II) event0  - Power Button: device removed
+[     4.690] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[     4.690] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[     4.690] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[     4.690] (II) event0  - Power Button: device is a keyboard
+[     4.691] (II) config/udev: Adding input device Logitech G512 SE (/dev/input/event18)
+[     4.691] (**) Logitech G512 SE: Applying InputClass "libinput keyboard catchall"
+[     4.691] (II) Using input driver 'libinput' for 'Logitech G512 SE'
+[     4.691] (**) Logitech G512 SE: always reports core events
+[     4.691] (**) Option "Device" "/dev/input/event18"
+[     4.691] (**) Option "_source" "server/udev"
+[     4.692] (II) event18 - Logitech G512 SE: is tagged by udev as: Keyboard
+[     4.692] (II) event18 - Logitech G512 SE: device is a keyboard
+[     4.693] (II) event18 - Logitech G512 SE: device removed
+[     4.716] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:02:00.0/usb1/1-5/1-5:1.0/0003:046D:C342.0002/input/input19/event18"
+[     4.716] (II) XINPUT: Adding extended input device "Logitech G512 SE" (type: KEYBOARD, id 8)
+[     4.718] (II) event18 - Logitech G512 SE: is tagged by udev as: Keyboard
+[     4.718] (II) event18 - Logitech G512 SE: device is a keyboard
+[     4.719] (II) config/udev: Adding input device Logitech G512 SE Keyboard (/dev/input/event19)
+[     4.719] (**) Logitech G512 SE Keyboard: Applying InputClass "libinput keyboard catchall"
+[     4.719] (II) Using input driver 'libinput' for 'Logitech G512 SE Keyboard'
+[     4.719] (**) Logitech G512 SE Keyboard: always reports core events
+[     4.719] (**) Option "Device" "/dev/input/event19"
+[     4.719] (**) Option "_source" "server/udev"
+[     4.720] (II) event19 - Logitech G512 SE Keyboard: is tagged by udev as: Keyboard
+[     4.720] (II) event19 - Logitech G512 SE Keyboard: device is a keyboard
+[     4.720] (II) event19 - Logitech G512 SE Keyboard: device removed
+[     4.770] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:02:00.0/usb1/1-5/1-5:1.1/0003:046D:C342.0003/input/input20/event19"
+[     4.770] (II) XINPUT: Adding extended input device "Logitech G512 SE Keyboard" (type: KEYBOARD, id 9)
+[     4.771] (II) event19 - Logitech G512 SE Keyboard: is tagged by udev as: Keyboard
+[     4.771] (II) event19 - Logitech G512 SE Keyboard: device is a keyboard
+[     4.772] (II) config/udev: Adding input device Logitech G403 Prodigy Gaming Mouse (/dev/input/event20)
+[     4.772] (**) Logitech G403 Prodigy Gaming Mouse: Applying InputClass "libinput pointer catchall"
+[     4.772] (**) Logitech G403 Prodigy Gaming Mouse: Applying InputClass "Logitech G403 Prodigy Gaming Mouse"
+[     4.772] (II) Using input driver 'libinput' for 'Logitech G403 Prodigy Gaming Mouse'
+[     4.772] (**) Logitech G403 Prodigy Gaming Mouse: always reports core events
+[     4.772] (**) Option "Device" "/dev/input/event20"
+[     4.772] (**) Option "_source" "server/udev"
+[     4.827] (II) event20 - Logitech G403 Prodigy Gaming Mouse: is tagged by udev as: Mouse
+[     4.827] (II) event20 - Logitech G403 Prodigy Gaming Mouse: device set to 800 DPI
+[     4.828] (II) event20 - Logitech G403 Prodigy Gaming Mouse: device is a pointer
+[     4.828] (II) event20 - Logitech G403 Prodigy Gaming Mouse: device removed
+[     4.903] (**) Option "AccelSpeed" "-1"
+[     4.903] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:02:00.0/usb1/1-6/1-6:1.0/0003:046D:C083.0004/input/input23/event20"
+[     4.903] (II) XINPUT: Adding extended input device "Logitech G403 Prodigy Gaming Mouse" (type: MOUSE, id 10)
+[     4.903] (**) Option "AccelerationScheme" "none"
+[     4.903] (**) Logitech G403 Prodigy Gaming Mouse: (accel) selected scheme none/0
+[     4.903] (**) Logitech G403 Prodigy Gaming Mouse: (accel) acceleration factor: 2.000
+[     4.903] (**) Logitech G403 Prodigy Gaming Mouse: (accel) acceleration threshold: 4
+[     4.965] (II) event20 - Logitech G403 Prodigy Gaming Mouse: is tagged by udev as: Mouse
+[     4.966] (II) event20 - Logitech G403 Prodigy Gaming Mouse: device set to 800 DPI
+[     4.966] (II) event20 - Logitech G403 Prodigy Gaming Mouse: device is a pointer
+[     4.970] (II) config/udev: Adding input device Logitech G403 Prodigy Gaming Mouse (/dev/input/mouse0)
+[     4.970] (**) Logitech G403 Prodigy Gaming Mouse: Applying InputClass "Logitech G403 Prodigy Gaming Mouse"
+[     4.970] (II) No input driver specified, ignoring this device.
+[     4.970] (II) This device may have been added with another device file.
+[     4.974] (II) config/udev: Adding input device Logitech G403 Prodigy Gaming Mouse Keyboard (/dev/input/event21)
+[     4.974] (**) Logitech G403 Prodigy Gaming Mouse Keyboard: Applying InputClass "libinput keyboard catchall"
+[     4.974] (II) Using input driver 'libinput' for 'Logitech G403 Prodigy Gaming Mouse Keyboard'
+[     4.974] (**) Logitech G403 Prodigy Gaming Mouse Keyboard: always reports core events
+[     4.974] (**) Option "Device" "/dev/input/event21"
+[     4.974] (**) Option "_source" "server/udev"
+[     4.980] (II) event21 - Logitech G403 Prodigy Gaming Mouse Keyboard: is tagged by udev as: Keyboard
+[     4.981] (II) event21 - Logitech G403 Prodigy Gaming Mouse Keyboard: device is a keyboard
+[     4.982] (II) event21 - Logitech G403 Prodigy Gaming Mouse Keyboard: device removed
+[     5.010] (II) libinput: Logitech G403 Prodigy Gaming Mouse Keyboard: needs a virtual subdevice
+[     5.010] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:02:00.0/usb1/1-6/1-6:1.1/0003:046D:C083.0005/input/input24/event21"
+[     5.010] (II) XINPUT: Adding extended input device "Logitech G403 Prodigy Gaming Mouse Keyboard" (type: MOUSE, id 11)
+[     5.010] (**) Option "AccelerationScheme" "none"
+[     5.010] (**) Logitech G403 Prodigy Gaming Mouse Keyboard: (accel) selected scheme none/0
+[     5.010] (**) Logitech G403 Prodigy Gaming Mouse Keyboard: (accel) acceleration factor: 2.000
+[     5.010] (**) Logitech G403 Prodigy Gaming Mouse Keyboard: (accel) acceleration threshold: 4
+[     5.016] (II) event21 - Logitech G403 Prodigy Gaming Mouse Keyboard: is tagged by udev as: Keyboard
+[     5.016] (II) event21 - Logitech G403 Prodigy Gaming Mouse Keyboard: device is a keyboard
+[     5.020] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event3)
+[     5.020] (II) No input driver specified, ignoring this device.
+[     5.020] (II) This device may have been added with another device file.
+[     5.020] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event4)
+[     5.020] (II) No input driver specified, ignoring this device.
+[     5.020] (II) This device may have been added with another device file.
+[     5.021] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event5)
+[     5.021] (II) No input driver specified, ignoring this device.
+[     5.021] (II) This device may have been added with another device file.
+[     5.021] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event6)
+[     5.021] (II) No input driver specified, ignoring this device.
+[     5.021] (II) This device may have been added with another device file.
+[     5.021] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=10 (/dev/input/event7)
+[     5.021] (II) No input driver specified, ignoring this device.
+[     5.021] (II) This device may have been added with another device file.
+[     5.022] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=11 (/dev/input/event8)
+[     5.022] (II) No input driver specified, ignoring this device.
+[     5.022] (II) This device may have been added with another device file.
+[     5.022] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=12 (/dev/input/event9)
+[     5.022] (II) No input driver specified, ignoring this device.
+[     5.022] (II) This device may have been added with another device file.
+[     5.022] (II) config/udev: Adding input device HD-Audio Generic Front Mic (/dev/input/event10)
+[     5.022] (II) No input driver specified, ignoring this device.
+[     5.022] (II) This device may have been added with another device file.
+[     5.023] (II) config/udev: Adding input device HD-Audio Generic Rear Mic (/dev/input/event11)
+[     5.023] (II) No input driver specified, ignoring this device.
+[     5.023] (II) This device may have been added with another device file.
+[     5.023] (II) config/udev: Adding input device HD-Audio Generic Line (/dev/input/event12)
+[     5.023] (II) No input driver specified, ignoring this device.
+[     5.023] (II) This device may have been added with another device file.
+[     5.023] (II) config/udev: Adding input device HD-Audio Generic Line Out Front (/dev/input/event13)
+[     5.023] (II) No input driver specified, ignoring this device.
+[     5.023] (II) This device may have been added with another device file.
+[     5.024] (II) config/udev: Adding input device HD-Audio Generic Line Out Surround (/dev/input/event14)
+[     5.024] (II) No input driver specified, ignoring this device.
+[     5.024] (II) This device may have been added with another device file.
+[     5.024] (II) config/udev: Adding input device HD-Audio Generic Line Out CLFE (/dev/input/event15)
+[     5.024] (II) No input driver specified, ignoring this device.
+[     5.024] (II) This device may have been added with another device file.
+[     5.024] (II) config/udev: Adding input device HD-Audio Generic Line Out Side (/dev/input/event16)
+[     5.024] (II) No input driver specified, ignoring this device.
+[     5.024] (II) This device may have been added with another device file.
+[     5.025] (II) config/udev: Adding input device HD-Audio Generic Front Headphone (/dev/input/event17)
+[     5.025] (II) No input driver specified, ignoring this device.
+[     5.025] (II) This device may have been added with another device file.
+[     5.025] (II) config/udev: Adding input device PC Speaker (/dev/input/event2)
+[     5.025] (II) No input driver specified, ignoring this device.
+[     5.025] (II) This device may have been added with another device file.
+[     5.031] (**) Logitech G403 Prodigy Gaming Mouse Keyboard: Applying InputClass "libinput keyboard catchall"
+[     5.031] (II) Using input driver 'libinput' for 'Logitech G403 Prodigy Gaming Mouse Keyboard'
+[     5.031] (**) Logitech G403 Prodigy Gaming Mouse Keyboard: always reports core events
+[     5.031] (**) Option "Device" "/dev/input/event21"
+[     5.031] (**) Option "_source" "_driver/libinput"
+[     5.031] (II) libinput: Logitech G403 Prodigy Gaming Mouse Keyboard: is a virtual subdevice
+[     5.031] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.3/0000:02:00.0/usb1/1-6/1-6:1.1/0003:046D:C083.0005/input/input24/event21"
+[     5.031] (II) XINPUT: Adding extended input device "Logitech G403 Prodigy Gaming Mouse Keyboard" (type: KEYBOARD, id 12)
+[     5.948] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[     5.948] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[     5.948] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[     5.948] (--) NVIDIA(GPU-0): 
+[     5.951] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[     5.951] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[     5.951] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[     5.951] (--) NVIDIA(GPU-0): 
+[     5.951] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[     5.951] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[     5.951] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[     5.951] (--) NVIDIA(GPU-0): 
+[     5.951] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[     5.951] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[     5.951] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[     5.951] (--) NVIDIA(GPU-0): 
+[     5.951] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[     5.951] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[     5.951] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[     5.951] (--) NVIDIA(GPU-0): 
+[     5.951] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[     5.951] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[     5.951] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[     5.951] (--) NVIDIA(GPU-0): 
+[     5.951] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[     5.951] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[     5.951] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[     5.951] (--) NVIDIA(GPU-0): 
+[     7.317] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[     7.317] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[     7.317] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[     7.317] (--) NVIDIA(GPU-0): 
+[     7.319] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[     7.319] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[     7.319] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[     7.319] (--) NVIDIA(GPU-0): 
+[     7.319] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[     7.319] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[     7.319] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[     7.319] (--) NVIDIA(GPU-0): 
+[     7.319] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[     7.319] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[     7.319] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[     7.319] (--) NVIDIA(GPU-0): 
+[     7.319] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[     7.319] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[     7.319] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[     7.319] (--) NVIDIA(GPU-0): 
+[     7.319] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[     7.319] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[     7.319] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[     7.319] (--) NVIDIA(GPU-0): 
+[     7.319] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[     7.319] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[     7.319] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[     7.319] (--) NVIDIA(GPU-0): 
+[     7.930] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[     7.930] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[     7.930] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[     7.930] (--) NVIDIA(GPU-0): 
+[     7.932] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[     7.932] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[     7.932] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[     7.932] (--) NVIDIA(GPU-0): 
+[     7.932] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[     7.932] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[     7.932] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[     7.932] (--) NVIDIA(GPU-0): 
+[     7.932] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[     7.932] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[     7.932] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[     7.932] (--) NVIDIA(GPU-0): 
+[     7.932] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[     7.932] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[     7.932] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[     7.932] (--) NVIDIA(GPU-0): 
+[     7.932] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[     7.932] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[     7.932] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[     7.932] (--) NVIDIA(GPU-0): 
+[     7.932] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[     7.932] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[     7.932] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[     7.932] (--) NVIDIA(GPU-0): 
+[    24.733] (EE) event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 24ms, your system is too slow
+[    25.867] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[    25.867] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[    25.867] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[    25.867] (--) NVIDIA(GPU-0): 
+[    25.870] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    25.870] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    25.870] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    25.870] (--) NVIDIA(GPU-0): 
+[    25.870] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    25.870] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    25.870] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    25.870] (--) NVIDIA(GPU-0): 
+[    25.870] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    25.870] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[    25.870] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[    25.870] (--) NVIDIA(GPU-0): 
+[    25.870] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    25.870] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[    25.870] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[    25.870] (--) NVIDIA(GPU-0): 
+[    25.870] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    25.870] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    25.870] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[    25.870] (--) NVIDIA(GPU-0): 
+[    25.870] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[    25.870] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[    25.870] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[    25.870] (--) NVIDIA(GPU-0): 
+[    59.099] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[    59.099] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[    59.099] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[    59.099] (--) NVIDIA(GPU-0): 
+[    59.101] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    59.101] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    59.101] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    59.101] (--) NVIDIA(GPU-0): 
+[    59.101] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    59.102] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    59.102] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    59.102] (--) NVIDIA(GPU-0): 
+[    59.102] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    59.102] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[    59.102] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[    59.102] (--) NVIDIA(GPU-0): 
+[    59.102] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    59.102] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[    59.102] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[    59.102] (--) NVIDIA(GPU-0): 
+[    59.102] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    59.102] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    59.102] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[    59.102] (--) NVIDIA(GPU-0): 
+[    59.102] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[    59.102] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[    59.102] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[    59.102] (--) NVIDIA(GPU-0): 
+[    70.003] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[    70.003] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[    70.003] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[    70.003] (--) NVIDIA(GPU-0): 
+[    70.005] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    70.005] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[    70.005] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[    70.005] (--) NVIDIA(GPU-0): 
+[    70.005] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[    70.005] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[    70.005] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[    70.005] (--) NVIDIA(GPU-0): 
+[    70.005] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[    70.005] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[    70.005] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[    70.005] (--) NVIDIA(GPU-0): 
+[    70.005] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[    70.005] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[    70.005] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[    70.005] (--) NVIDIA(GPU-0): 
+[    70.005] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[    70.005] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[    70.005] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[    70.005] (--) NVIDIA(GPU-0): 
+[    70.005] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[    70.005] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[    70.005] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[    70.005] (--) NVIDIA(GPU-0): 
+[   105.679] (EE) event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 15ms, your system is too slow
+[   240.563] (EE) event18 - Logitech G512 SE: client bug: event processing lagging behind by 20ms, your system is too slow
+[   448.041] (EE) event18 - Logitech G512 SE: client bug: event processing lagging behind by 17ms, your system is too slow
+[   478.176] (EE) event18 - Logitech G512 SE: client bug: event processing lagging behind by 19ms, your system is too slow
+[   955.905] (EE) event18 - Logitech G512 SE: client bug: event processing lagging behind by 35ms, your system is too slow
+[  1708.875] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  1708.876] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[  1708.876] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[  1708.876] (--) NVIDIA(GPU-0): 
+[  1708.878] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  1708.878] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  1708.878] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  1708.878] (--) NVIDIA(GPU-0): 
+[  1708.878] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  1708.878] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  1708.878] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  1708.878] (--) NVIDIA(GPU-0): 
+[  1708.878] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  1708.878] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[  1708.878] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[  1708.878] (--) NVIDIA(GPU-0): 
+[  1708.878] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[  1708.878] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[  1708.878] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[  1708.878] (--) NVIDIA(GPU-0): 
+[  1708.878] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[  1708.878] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[  1708.878] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[  1708.878] (--) NVIDIA(GPU-0): 
+[  1708.878] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[  1708.878] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[  1708.878] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[  1708.878] (--) NVIDIA(GPU-0): 
+[  1862.517] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  1862.517] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[  1862.517] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[  1862.517] (--) NVIDIA(GPU-0): 
+[  1862.519] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  1862.519] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  1862.519] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  1862.519] (--) NVIDIA(GPU-0): 
+[  1862.519] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  1862.519] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  1862.519] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  1862.519] (--) NVIDIA(GPU-0): 
+[  1862.519] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  1862.519] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[  1862.519] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[  1862.519] (--) NVIDIA(GPU-0): 
+[  1862.519] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[  1862.519] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[  1862.519] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[  1862.519] (--) NVIDIA(GPU-0): 
+[  1862.519] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[  1862.519] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[  1862.519] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[  1862.519] (--) NVIDIA(GPU-0): 
+[  1862.519] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[  1862.519] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[  1862.519] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[  1862.519] (--) NVIDIA(GPU-0): 
+[  2054.470] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2054.470] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[  2054.470] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[  2054.470] (--) NVIDIA(GPU-0): 
+[  2054.472] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  2054.472] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  2054.472] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  2054.472] (--) NVIDIA(GPU-0): 
+[  2054.472] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  2054.472] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  2054.472] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  2054.472] (--) NVIDIA(GPU-0): 
+[  2054.472] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  2054.472] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[  2054.472] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[  2054.472] (--) NVIDIA(GPU-0): 
+[  2054.472] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[  2054.472] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[  2054.472] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[  2054.472] (--) NVIDIA(GPU-0): 
+[  2054.472] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[  2054.472] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[  2054.472] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[  2054.472] (--) NVIDIA(GPU-0): 
+[  2054.473] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[  2054.473] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[  2054.473] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[  2054.473] (--) NVIDIA(GPU-0): 
+[  2088.384] (EE) event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 17ms, your system is too slow
+[  2107.003] (EE) event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 20ms, your system is too slow
+[  2110.261] (EE) event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 14ms, your system is too slow
+[  2110.261] (EE) event20 - Logitech G403 Prodigy Gaming Mouse: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+[  2167.743] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2167.744] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[  2167.744] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[  2167.744] (--) NVIDIA(GPU-0): 
+[  2167.746] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  2167.746] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  2167.746] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  2167.746] (--) NVIDIA(GPU-0): 
+[  2167.746] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  2167.746] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  2167.746] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  2167.746] (--) NVIDIA(GPU-0): 
+[  2167.746] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  2167.746] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[  2167.746] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[  2167.746] (--) NVIDIA(GPU-0): 
+[  2167.746] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[  2167.746] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[  2167.746] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[  2167.746] (--) NVIDIA(GPU-0): 
+[  2167.746] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[  2167.746] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[  2167.746] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[  2167.746] (--) NVIDIA(GPU-0): 
+[  2167.746] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[  2167.746] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[  2167.746] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[  2167.746] (--) NVIDIA(GPU-0): 
+[  2233.232] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): connected
+[  2233.232] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): Internal DisplayPort
+[  2233.232] (--) NVIDIA(GPU-0): AUS VG278 (DFP-0): 2660.0 MHz maximum pixel clock
+[  2233.232] (--) NVIDIA(GPU-0): 
+[  2233.234] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  2233.234] (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+[  2233.234] (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+[  2233.234] (--) NVIDIA(GPU-0): 
+[  2233.234] (--) NVIDIA(GPU-0): DFP-2: disconnected
+[  2233.234] (--) NVIDIA(GPU-0): DFP-2: Internal TMDS
+[  2233.234] (--) NVIDIA(GPU-0): DFP-2: 165.0 MHz maximum pixel clock
+[  2233.234] (--) NVIDIA(GPU-0): 
+[  2233.234] (--) NVIDIA(GPU-0): DFP-3: disconnected
+[  2233.234] (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+[  2233.234] (--) NVIDIA(GPU-0): DFP-3: 2660.0 MHz maximum pixel clock
+[  2233.234] (--) NVIDIA(GPU-0): 
+[  2233.234] (--) NVIDIA(GPU-0): DFP-4: disconnected
+[  2233.234] (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+[  2233.234] (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+[  2233.234] (--) NVIDIA(GPU-0): 
+[  2233.234] (--) NVIDIA(GPU-0): DFP-5: disconnected
+[  2233.234] (--) NVIDIA(GPU-0): DFP-5: Internal DisplayPort
+[  2233.234] (--) NVIDIA(GPU-0): DFP-5: 2660.0 MHz maximum pixel clock
+[  2233.234] (--) NVIDIA(GPU-0): 
+[  2233.234] (--) NVIDIA(GPU-0): DFP-6: disconnected
+[  2233.234] (--) NVIDIA(GPU-0): DFP-6: Internal TMDS
+[  2233.234] (--) NVIDIA(GPU-0): DFP-6: 165.0 MHz maximum pixel clock
+[  2233.234] (--) NVIDIA(GPU-0): 
+[  2495.298] (EE) event18 - Logitech G512 SE: client bug: event processing lagging behind by 18ms, your system is too slow
+[  2495.298] (EE) event18 - Logitech G512 SE: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
