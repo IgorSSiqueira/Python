@@ -1,12 +1,82 @@
+At time 4.937, error NVIDIA: Failed to load module "glxserver_nvidia" (module does not exist, 0)
+
+At time 4.937, error NVIDIA(1): Failed to initialize the GLX module; please check in your X
+
+At time 4.937, error NVIDIA(1): log file that the GLX module has been loaded in your X
+
+At time 4.937, error NVIDIA(1): server, and that the module is the NVIDIA GLX module. If
+
+At time 4.937, error NVIDIA(1): you continue to encounter problems, Please try
+
+At time 4.937, error NVIDIA(1): reinstalling the NVIDIA driver.
+
+At time 6.382, error modeset(G0): glamor initialization failed
+
+At time 6.719, error modeset(G0): glamor initialization failed
+
 At time 17.297, error Failed to load module "nvidia" (module does not exist, 0)
 
 At time 17.358, error Failed to load module "nvidia" (module does not exist, 0)
 
 At time 24.733, error event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 24ms, your system is too slow
 
+At time 62.121, error Failed to load module "fbdev" (module does not exist, 0)
+
+At time 62.121, error Failed to load module "vesa" (module does not exist, 0)
+
 At time 105.679, error event20 - Logitech G403 Prodigy Gaming Mouse: client bug: event processing lagging behind by 15ms, your system is too slow
 
 At time 240.563, error event18 - Logitech G512 SE: client bug: event processing lagging behind by 20ms, your system is too slow
+
+At time 437.348, error intel(0): [DRI2] DRI2SwapComplete: bad drawable
+
+At time 437.372, error 
+
+At time 437.372, error Backtrace:
+
+At time 437.373, error 0: /usr/lib/xorg-server/Xorg (OsLookupColor+0x139) [0x598b99]
+
+At time 437.373, error 1: /usr/lib/libc.so.6 (__restore_rt+0x0) [0x7f64abdda67f]
+
+At time 437.374, error 2: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0xf413f) [0x7f64a6d42aaf]
+
+At time 437.374, error 5: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0x68b30) [0x7f64a6c2be20]
+
+At time 437.374, error 3: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0xf6727) [0x7f64a6d47637]
+
+At time 437.374, error 4: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0x64e60) [0x7f64a6c24380]
+
+At time 437.375, error 6: /usr/lib/xorg-server/Xorg (WakeupHandler+0xaa) [0x43ae4a]
+
+At time 437.375, error 7: /usr/lib/xorg-server/Xorg (WaitForSomething+0x1ef) [0x59139f]
+
+At time 437.375, error 8: /usr/lib/xorg-server/Xorg (SendErrorToClient+0x10e) [0x43611e]
+
+At time 437.375, error 9: /usr/lib/xorg-server/Xorg (remove_fs_handlers+0x453) [0x43a313]
+
+At time 437.376, error 10: /usr/lib/libc.so.6 (__libc_start_main+0xf0) [0x7f64abdc7610]
+
+At time 437.376, error 11: /usr/lib/xorg-server/Xorg (_start+0x29) [0x424649]
+
+At time 437.377, error 
+
+At time 437.377, error 12: ? (?+0x29) [0x29]
+
+At time 437.377, error 
+
+At time 437.377, error Segmentation fault at address 0x0
+
+At time 437.377, error 
+
+At time 437.377, error Caught signal 11 (Segmentation fault). Server aborting
+
+At time 437.377, error Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+
+At time 437.377, error 
+
+At time 437.377, error 
+
+At time 437.512, error Server terminated with error (1). Closing log file.
 
 At time 448.041, error event18 - Logitech G512 SE: client bug: event processing lagging behind by 17ms, your system is too slow
 
