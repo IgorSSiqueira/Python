@@ -1,0 +1,56 @@
+[  2760.163] Backtrace:
+[  2760.166] 0: /usr/bin/X (xorg_backtrace+0x3d) [0x55625d]
+[  2760.166] 1: /usr/bin/X (0x400000+0x159ed9) [0x559ed9]
+[  2760.166] 2: /usr/lib/libpthread.so.0 (0x7f46f6a1e000+0xf0e0) [0x7f46f6a2d0e0]
+[  2760.166] 3: /usr/lib/xorg/modules/drivers/fglrx_drv.so (Phw770_ProgramMemoryTimingParameters+0x81) [0x7f46f31fb821]
+[  2760.167] 4: /usr/lib/xorg/modules/drivers/fglrx_drv.so (0x7f46f2c03000+0x5fcea8) [0x7f46f31ffea8]
+[  2760.167] 5: /usr/lib/xorg/modules/drivers/fglrx_drv.so (PHM_DispatchTable+0xf0) [0x7f46f31c8430]
+[  2760.167] 6: /usr/lib/xorg/modules/drivers/fglrx_drv.so (PHM_SetPowerStateDeferrable+0x3b) [0x7f46f31c54ab]
+[  2760.167] 7: /usr/lib/xorg/modules/drivers/fglrx_drv.so (0x7f46f2c03000+0x5e8d07) [0x7f46f31ebd07]
+[  2760.168] 8: /usr/lib/xorg/modules/drivers/fglrx_drv.so (0x7f46f2c03000+0x5e7d21) [0x7f46f31ead21]
+[  2760.168] 9: /usr/lib/xorg/modules/drivers/fglrx_drv.so (PEM_Task_AdjustPowerState+0x3f) [0x7f46f31ef54f]
+[  2760.168] 10: /usr/lib/xorg/modules/drivers/fglrx_drv.so (PEM_ExcuteEventChain+0x64) [0x7f46f31ede64]
+[  2760.168] 11: /usr/lib/xorg/modules/drivers/fglrx_drv.so (PEM_HandleEvent_Unlocked+0x23) [0x7f46f31ec593]
+[  2760.169] 12: /usr/lib/xorg/modules/drivers/fglrx_drv.so (PEM_HandleEvent+0x52) [0x7f46f31ec672]
+[  2760.169] 13: /usr/lib/xorg/modules/drivers/fglrx_drv.so (0x7f46f2c03000+0x5e06e5) [0x7f46f31e36e5]
+[  2760.169] 14: /usr/lib/xorg/modules/drivers/fglrx_drv.so (PP_Cwdde+0x104) [0x7f46f31e1ed4]
+[  2760.169] 15: /usr/lib/xorg/modules/drivers/fglrx_drv.so (swlPPLibCwddepm+0xa8) [0x7f46f317e718]
+[  2760.170] 16: /usr/lib/xorg/modules/drivers/fglrx_drv.so (swlPPLibNotifyEvent+0x77) [0x7f46f317eae7]
+[  2760.170] 17: /usr/lib/xorg/modules/drivers/fglrx_drv.so (swlPPLibEventProcess+0x136) [0x7f46f317e906]
+[  2760.170] 18: /usr/lib/xorg/modules/drivers/fglrx_drv.so (swlMcilXEventProcess+0x42) [0x7f46f3171ab2]
+[  2760.170] 19: /usr/lib/xorg/modules/drivers/fglrx_drv.so (MCIL_NotifyEvent+0xbc) [0x7f46f31708cc]
+[  2760.171] 20: /usr/lib/xorg/modules/drivers/fglrx_drv.so (vNotifyDriverModeChange+0xa4) [0x7f46f34876f4]
+[  2760.171] 21: /usr/lib/xorg/modules/drivers/fglrx_drv.so (DALPostSetModeEx_old+0x186) [0x7f46f3463846]
+[  2760.171] 22: /usr/lib/xorg/modules/drivers/fglrx_drv.so (DALPostSetMode_old+0x2f) [0x7f46f34636af]
+[  2760.172] 23: /usr/lib/xorg/modules/drivers/fglrx_drv.so (_ZN18DalLegacyInterface11PostSetModeEjP13_DEVMODE_INFO+0xd) [0x7f46f34328fd]
+[  2760.172] 24: /usr/lib/xorg/modules/drivers/fglrx_drv.so (DALPostSetMode+0x11) [0x7f46f32578b1]
+[  2760.172] 25: /usr/lib/xorg/modules/drivers/fglrx_drv.so (swlDalDisplayPostSetMode+0x33) [0x7f46f3169593]
+[  2760.172] 26: /usr/lib/xorg/modules/drivers/fglrx_drv.so (0x7f46f2c03000+0x5238ba) [0x7f46f31268ba]
+[  2760.172] 27: /usr/bin/X (dixSaveScreens+0x117) [0x45f947]
+[  2760.173] 28: /usr/bin/X (0x400000+0x235cd) [0x4235cd]
+[  2760.173] 29: /usr/lib/libc.so.6 (__libc_start_main+0xf5) [0x7f46f5aa5a15]
+[  2760.173] 30: /usr/bin/X (0x400000+0x238cd) [0x4238cd]
+[  2760.173] 
+[  2760.173] Floating point exception at address 0x7f46f31fb821
+[  2760.173] 
+Fatal server error:
+[  2760.173] Caught signal 8 (Floating point exception). Server aborting
+[  2760.173] 
+[  2760.173] 
+Please consult the The X.Org Foundation support 
+         at http://wiki.x.org
+ for help. 
+[  2760.173] Please also check the log file at "/var/log/Xorg.1.log" for additional information.
+[  2760.173] 
+[  2760.173] (II) evdev: Power Button: Close
+[  2760.173] (II) UnloadModule: "evdev"
+[  2760.173] (II) evdev: Power Button: Close
+[  2760.173] (II) UnloadModule: "evdev"
+[  2760.173] (II) evdev: Logitech USB Optical Mouse: Close
+[  2760.173] (II) UnloadModule: "evdev"
+[  2760.173] (II) evdev: AT Translated Set 2 keyboard: Close
+[  2760.173] (II) UnloadModule: "evdev"
+[  2760.173] (II) AIGLX: Suspending AIGLX clients for VT switch
+[  2760.173] (II) fglrx(0): Backup framebuffer data.
+[  2760.352] (II) fglrx(0): Backup complete.
+[  2760.720] Server terminated with error (1). Closing log file.

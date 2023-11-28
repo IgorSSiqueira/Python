@@ -1,0 +1,34 @@
+[   436.468] (II) intel(0): EDID vendor "CMN", prod id 5283
+[   436.468] (II) intel(0): Printing DDC gathered Modelines:
+[   436.468] (II) intel(0): Modeline "1600x900"x0.0  107.80  1600 1648 1680 1940  900 903 908 926 +hsync -vsync (55.6 kHz eP)
+[   436.468] (II) intel(0): Modeline "1600x900"x0.0   71.87  1600 1648 1680 1940  900 903 908 926 +hsync -vsync (37.0 kHz e)
+[   437.348] (EE) intel(0): [DRI2] DRI2SwapComplete: bad drawable
+[   437.372] (EE) 
+[   437.372] (EE) Backtrace:
+[   437.373] (EE) 0: /usr/lib/xorg-server/Xorg (OsLookupColor+0x139) [0x598b99]
+[   437.373] (EE) 1: /usr/lib/libc.so.6 (__restore_rt+0x0) [0x7f64abdda67f]
+[   437.374] (EE) 2: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0xf413f) [0x7f64a6d42aaf]
+[   437.374] (EE) 3: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0xf6727) [0x7f64a6d47637]
+[   437.374] (EE) 4: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0x64e60) [0x7f64a6c24380]
+[   437.374] (EE) 5: /usr/lib/xorg/modules/drivers/intel_drv.so (_init+0x68b30) [0x7f64a6c2be20]
+[   437.375] (EE) 6: /usr/lib/xorg-server/Xorg (WakeupHandler+0xaa) [0x43ae4a]
+[   437.375] (EE) 7: /usr/lib/xorg-server/Xorg (WaitForSomething+0x1ef) [0x59139f]
+[   437.375] (EE) 8: /usr/lib/xorg-server/Xorg (SendErrorToClient+0x10e) [0x43611e]
+[   437.375] (EE) 9: /usr/lib/xorg-server/Xorg (remove_fs_handlers+0x453) [0x43a313]
+[   437.376] (EE) 10: /usr/lib/libc.so.6 (__libc_start_main+0xf0) [0x7f64abdc7610]
+[   437.376] (EE) 11: /usr/lib/xorg-server/Xorg (_start+0x29) [0x424649]
+[   437.377] (EE) 12: ? (?+0x29) [0x29]
+[   437.377] (EE) 
+[   437.377] (EE) Segmentation fault at address 0x0
+[   437.377] (EE) 
+Fatal server error:
+[   437.377] (EE) Caught signal 11 (Segmentation fault). Server aborting
+[   437.377] (EE) 
+[   437.377] (EE) 
+Please consult the The X.Org Foundation support 
+         at http://wiki.x.org
+ for help. 
+[   437.377] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[   437.377] (EE) 
+[   437.377] (II) AIGLX: Suspending AIGLX clients for VT switch
+[   437.512] (EE) Server terminated with error (1). Closing log file.
