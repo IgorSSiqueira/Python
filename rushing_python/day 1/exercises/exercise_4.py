@@ -63,7 +63,7 @@ def sort_msg(msgs):
         time_stamp = time_stamp[0:-1]
         time_stamp_list.append(float(time_stamp))
 
-    #Starting the sorting
+    #sorting
     for n in range(len(splited_msgs)) :
         min_n = n
         for j in range(n+1, len(splited_msgs)):
